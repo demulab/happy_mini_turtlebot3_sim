@@ -1,4 +1,4 @@
-# Happy Mini TurtleBot3 Simulaitons
+# Happy Mini TurtleBot3 Simulations
 ## 概　要
 次のturtlebot3_simulationsパッケージにhappy miniのモデル(URDF, Mesh)を追加した。現時点では、ロボット台車のパラメータはwaffle_piと同じ。  
 - http://wiki.ros.org/turtlebot3_simulations (metapackage)
