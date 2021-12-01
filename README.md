@@ -14,11 +14,11 @@
 - $ export TURTLEBOT3_MODEL=happy_mini
 - $ ros2 launch turtlebot3_gazebo empty_world.launch.py
 
-2. TurtleBot3 World
+2. TurtleBot3 World  
 <img src=https://github.com/demulab/happy_mini_turtlebot3_sim/happy_mini_turtlbot3_world.png" title="happy mini turtlebot3 world">     - $ export TURTLEBOT3_MODEL=happy_mini
 - $ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
-3. TurtleBot3 House
+3. TurtleBot3 House  
 <img src=https://github.com/demulab/happy_mini_turtlebot3_sim/happy_mini_house.png" title="happy mini empty world">
 - $ export TURTLEBOT3_MODEL=happy_mini
 - $ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
