@@ -3,6 +3,11 @@
 次のturtlebot3_simulationsパッケージにhappy miniのモデル(URDF, Mesh)を追加した。現時点では、ロボット台車のパラメータはwaffle_piと同じ。  
 - http://wiki.ros.org/turtlebot3_simulations (metapackage)
 
+
+## 環　境  
+- ROS2 Foxy
+
+
 ## 使用法
 1. Empty World
 - $ export TURTLEBOT3_MODEL=happy_mini
@@ -15,5 +20,3 @@
 3. TurtleBot3 House
 - $ export TURTLEBOT3_MODEL=happy_mini
 - $ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
-
-
