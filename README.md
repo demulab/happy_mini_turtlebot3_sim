@@ -7,6 +7,17 @@
 ## 環　境  
 - ROS2 Foxy
 
+## インストール  
+```
+$ source ~/.bashrc
+$ sudo apt install ros-foxy-dynamixel-sdk
+$ sudo apt install ros-foxy-turtlebot3-msgs
+$ sudo apt install ros-foxy-turtlebot3
+$ git clone https://github.com/demulab/happy_mini_turtlebot3_sim.git
+$ cd ~/colcon_ws
+$ colcon build --symlink-install
+```
+
 ## 使用法
 1. Empty World  
 ![happy mini empty world](https://github.com/demulab/happy_mini_turtlebot3_sim/blob/main/happy_mini_empty_world.png "happy mini empty world")
