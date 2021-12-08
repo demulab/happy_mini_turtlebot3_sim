@@ -21,6 +21,7 @@ $ sudo apt install ros-foxy-turtlebot3
 ```
 - Happy Mini関連パッケージのインストール
 ```
+$ cd ~/colcon_ws/src
 $ git clone https://github.com/demulab/happy_mini_turtlebot3_sim.git
 $ cd ~/colcon_ws
 $ colcon build --symlink-install
