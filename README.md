@@ -27,6 +27,12 @@ $ cd ~/colcon_ws
 $ colcon build --symlink-install
 ```
 
+- Happy Mini URDFファイルのコピー
+```
+$ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_gazebo/models/turtlebot3_happy_mini/urdf
+$ sudo cp turtlebot3_happy_mini.urdf /opt/ros/foxy/share/turtlebot3_description/urdf
+```
+
 ## 使用法
 1. Empty World  
 ![happy mini empty world](https://github.com/demulab/happy_mini_turtlebot3_sim/blob/main/happy_mini_empty_world.png "happy mini empty world")
