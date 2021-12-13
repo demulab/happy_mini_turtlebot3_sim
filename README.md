@@ -28,7 +28,6 @@ $ git clone https://github.com/demulab/happy_mini_turtlebot3_sim.git
 $ cd ~/colcon_ws
 $ colcon build --symlink-install
 ```
-
 - Happy Mini コピー
 ```
 $ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_gazebo/models
@@ -36,6 +35,11 @@ $ sudo cp -r turtlebot3_happy_mini /opt/ros/foxy/share/turtlebot3_gazebo/models
 $ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_gazebo/models/turtlebot3_happy_mini/urdf
 $ sudo cp turtlebot3_happy_mini.urdf /opt/ros/foxy/share/turtlebot3_description/urdf
 ```
+- ~/.bashrcに次の1行を追加
+```
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/foxy/share/turtlebot3_gazebo/models
+```
+
 
 ## 使用法
 1. Empty World  
