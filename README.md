@@ -15,9 +15,10 @@ $ sudo apt install ros-foxy-gazebo-ros-pkgs
 ```
 - Turtlebot3関連パッケージのインストール
 ```
+$ sudo apt install ros-foxy-gazebo-*
 $ sudo apt install ros-foxy-dynamixel-sdk
-$ sudo apt install ros-foxy-turtlebot3-msgs
 $ sudo apt install ros-foxy-turtlebot3
+$ sudo apt install ros-foxy-turtlebot3-msgs
 $ sudo apt install ros-foxy-turtlebot3-gazebo
 ```
 - Happy Mini関連パッケージのインストール
