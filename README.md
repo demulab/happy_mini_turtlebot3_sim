@@ -28,7 +28,7 @@ $ git clone https://github.com/demulab/happy_mini_turtlebot3_sim.git
 $ cd ~/colcon_ws
 $ colcon build --symlink-install
 ```
-- Happy Mini コピー
+- Happy Miniモデルに必要なファイルのコピー
 ```
 $ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_gazebo/models
 $ sudo cp -r turtlebot3_happy_mini /opt/ros/foxy/share/turtlebot3_gazebo/models
