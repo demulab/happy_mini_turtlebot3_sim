@@ -33,7 +33,13 @@ $ colcon build --symlink-install
 $ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_gazebo/models
 $ sudo cp -r turtlebot3_happy_mini /opt/ros/foxy/share/turtlebot3_gazebo/models
 $ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_gazebo/models/turtlebot3_happy_mini/urdf
-$ sudo cp turtlebot3_happy_mini.urdf /opt/ros/foxy/share/turtlebot3_description/urdf
+$ sudo cp turtlebot3_happy_mini.urdf /opt/ros/foxy/share/turtlebot3_description/urdf  
+$ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_fake_node/param
+$ sudo cp happy_mini.yaml /opt/ros/foxy/share/turtlebot3_fake_node/param  
+$ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_navigation2/param
+$ sudo cp happy_mini.yaml /opt/ros/foxy/share/turtlebot3_navigation2/param  
+$ cd ~/colcon_ws/src/happy_mini_turtlebot3_sim/turtlebot3_node/param
+$ sudo cp happy_mini.yaml /opt/ros/foxy/share/turtlebot3_node/param  
 ```
 - ~/.bashrcに次の1行を追加
 ```
