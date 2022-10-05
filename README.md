@@ -52,3 +52,8 @@ $ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 $ export TURTLEBOT3_MODEL=happy_mini
 $ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
+4. ロボットモデルの変更
+- Waffle Piを使う場合
+```
+$ export TURTLEBOT3_MODEL=waffle_pi
+```
