@@ -3,6 +3,9 @@
 次のturtlebot3_simulationsパッケージにhappy miniのモデル(URDF, Mesh)を追加した。現時点では、ロボット台車のパラメータはwaffle_piと同じ。  
 - http://wiki.ros.org/turtlebot3_simulations (metapackage)
 
+## サンプルプログラムのバグ
+- Happy miniのモデルファイルにバグがあり，LiDARのレーザ光と台車カバーが干渉するためナビゲーションに失敗します．モデルファイルを修正しましたので，以下のファイルを元のファイル(~/airobot_ws/src/happy_mini_turtlebot3_sim/turtlebot3_gazebo/models/turtlebot3_happy_mini/model.sdf)に上書きしてください．お手数をおかけしてすみません．
+  - https://github.com/AI-Robot-Book/happy_mini_turtlebot3_sim/blob/main/turtlebot3_gazebo/models/turtlebot3_happy_mini/model.sdf
 
 ## 環　境  
 - ROS2 Foxy
