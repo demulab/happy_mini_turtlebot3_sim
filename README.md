@@ -30,7 +30,7 @@ $ colcon build
 ```
 
 
-## 使用法
+## 実行
 1. Empty World  
 ![happy mini empty world](https://github.com/demulab/happy_mini_turtlebot3_sim/blob/main/happy_mini_empty_world.png "happy mini empty world")
 
@@ -57,3 +57,18 @@ $ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
 $ export TURTLEBOT3_MODEL=waffle_pi
 ```
+
+## 著者
+出村 公成
+
+## 履歴
+- 2022-10-05: Happy miniの3DモデルがLiDARのレーザ光と干渉するので以下のファイルを変更．
+  - https://github.com/AI-Robot-Book/happy_mini_turtlebot3_sim/blob/main/turtlebot3_gazebo/models/turtlebot3_happy_mini/model.sdf
+- 2022-08-29: 初期版
+
+## ライセンス
+Copyright (c) 2022, Kosei Demura All rights reserved. This project is licensed under the Apache License 2.0 license found in the LICENSE file in the root directory of this project.
+
+
+## 参考文献
+- 今のところありません．
