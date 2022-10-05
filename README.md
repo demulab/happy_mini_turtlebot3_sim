@@ -61,6 +61,13 @@ $ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 $ export TURTLEBOT3_MODEL=waffle_pi
 ```
 
+5. ロボット初期位置の変更方法
+以下のファイルの下から6行目にある<pose>x[m], y[m], z[m], roll[rad], pitch[rad], yaw[rad]</pose>
+を変更してください．
+- happy_mini_turtlebot3_sim/turtlebot3_gazebo/worlds/turtlebot3_houses/happy_mini.model
+
+
+
 ## 著者
 出村 公成
 
