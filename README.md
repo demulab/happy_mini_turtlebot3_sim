@@ -62,7 +62,7 @@ $ export TURTLEBOT3_MODEL=waffle_pi
 出村 公成
 
 ## 履歴
-- 2022-10-05: Happy miniの3DモデルがLiDARのレーザ光と干渉するので以下のファイルを変更．
+- 2022-10-05: Happy miniの3DモデルがLiDARのレーザ光と干渉してナビゲーションい失敗するので以下のファイルを変更．
   - https://github.com/AI-Robot-Book/happy_mini_turtlebot3_sim/blob/main/turtlebot3_gazebo/models/turtlebot3_happy_mini/model.sdf
 - 2022-08-29: 初期版
 
